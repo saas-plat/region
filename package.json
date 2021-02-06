@@ -1,0 +1,22 @@
+{
+  "name": "region",
+  "version": "1.0.0",
+  "description": "地区档案",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saas-plat/region.git"
+  },
+  "author": "saas-plat.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/saas-plat/region/issues"
+  },
+  "homepage": "https://github.com/saas-plat/region#readme",
+  "dependencies": {
+    "@saas-plat/metaschema": "github:saas-plat/metaschema"
+  }
+}
