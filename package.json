@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/saas-plat/region.git"
+    "url": "https://github.com/saas-plat/region"
   },
   "author": "saas-plat.com",
   "license": "MIT",
@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/saas-plat/region#readme",
   "dependencies": {
-    "@saas-plat/metaschema": "github:saas-plat/metaschema"
+    "@saas-plat/metaschema": "^1.0.21",
+    "i18next": "^19.8.9"
   }
 }
