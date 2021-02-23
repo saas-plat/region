@@ -1,8 +1,8 @@
-import {
-  CategoryData,
-} from '@saas-plat/metaschema';
+import { LevelData } from '@saas-plat/metaschema';
 
-export default CategoryData('Region',  {
-  name: String, 
-  enabled: Boolean
-})
+export default LevelData('Region', {
+  name: String,
+  enabled: Boolean,
+  parent: 'Region',
+  childs: ['Region'],
+});

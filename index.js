@@ -1,3 +1,3 @@
 export { default as Entity } from './entities';
-export { default as Table } from './tables';
-export { default as View } from './views'; 
+export { default as EditView } from './views/edit'; 
+export { default as ListView } from './views/list'; 
