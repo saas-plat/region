@@ -26,18 +26,18 @@ export default View(
               {
                 type: 'button',
                 name: '新增地区',
-                onClick: { name: 'RegionList.create', mode: 'modal' },
+                onClick: { action: 'Model.create', mode: 'modal' },
               },
               {
                 type: 'button',
                 style: 'link',
                 name: '导入',
-                onClick: 'RegionList.import',
+                onClick: 'Model.import',
                 items: [
                   {
                     type: 'button',
                     name: '下载Excel模板',
-                    onClick: 'RegionList.downloadTemplate',
+                    onClick: 'Model.downloadTemplate',
                   },
                 ],
               },
@@ -45,7 +45,7 @@ export default View(
                 type: 'button',
                 style: 'link',
                 name: '导出',
-                onClick: 'RegionList.export',
+                onClick: 'Model.export',
               },
             ],
           },
@@ -78,13 +78,13 @@ export default View(
                 type: 'button',
                 style: 'icon',
                 icon: 'edit',
-                onClick: 'RegionList.editRow',
+                onClick: 'Model.editRow',
               },
               {
                 type: 'button',
                 style: 'icon',
                 icon: 'delete',
-                onClick: 'RegionList.deleteRow',
+                onClick: 'Model.deleteRow',
               },
             ],
           },
@@ -93,7 +93,7 @@ export default View(
     ],
   },
   {
-    model: 'ListModel',
+    model: 'FormListModel',
     editView: 'RegionEdit',
   }
 );

@@ -33,10 +33,12 @@ export default View(
             type: 'button',
             text: '保存',
             style: 'primary',
+            onClick: { name: 'save' },
           },
           {
             type: 'button',
             text: '保存新增',
+            onClick: { name: 'savenew' },
           },
         ],
       },
