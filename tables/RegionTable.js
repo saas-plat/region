@@ -3,6 +3,6 @@ import {
   Types
 } from '@saas-plat/metaschema';
 
-export default TreeTable('Region', {
+export default TreeTable('RegionTable', {
   enabled: Boolean
 })
