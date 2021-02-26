@@ -3,5 +3,7 @@ import {
 } from '@saas-plat/metaschema';
 
 export default LevelData('RegionEntity',  {
-  enabled: Boolean
+  enabled: Boolean,
+  parent: 'Region',
+  childs: ['Region'],
 })
