@@ -4,6 +4,6 @@ import {
 
 export default LevelData('RegionEntity',  {
   enabled: Boolean,
-  parent: 'Region',
-  childs: ['Region'],
+  parent: 'RegionEntity',
+  childs: ['RegionEntity'],
 })
